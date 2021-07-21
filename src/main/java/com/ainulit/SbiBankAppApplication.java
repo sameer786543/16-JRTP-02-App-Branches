@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SbiBankAppApplication {
+       private static final String url="www.ainul.com";
 
 	public static void main(String[] args) {
 		SpringApplication.run(SbiBankAppApplication.class, args);
